@@ -5,15 +5,11 @@ const MainPage = () => {
 	return (
 		<div className="mainPage-wrapper">
 			<div className="mainPage-face">
-<<<<<<< HEAD
 				<img
 					src="/consulting-company-project/Sources/main-image.png"
 					alt=""
 					className="main-image"
 				/>
-=======
-				<img src="/consulting-company-project/Sources/main-image.png" alt="" className="main-image" />
->>>>>>> 6099be6af9095c399c7226349191624b798e29fc
 
 				<div className="absoluteOnMainImage">
 					<h2 className="absolte-title">
@@ -30,15 +26,11 @@ const MainPage = () => {
 
 						<div className="red-arrow-wrapper">
 							<button className="absolute-btn">СМОТРЕТЬ КЕЙСЫ </button>
-<<<<<<< HEAD
 							<img
 								src="/consulting-company-project/Sources/red-arrow.png"
 								alt=""
 								className="red-arrow"
 							/>
-=======
-							<img src="/consulting-company-project/Sources/red-arrow.png" alt="" className="red-arrow" />
->>>>>>> 6099be6af9095c399c7226349191624b798e29fc
 						</div>
 					</div>
 				</div>
@@ -68,15 +60,11 @@ const MainPage = () => {
 			</div>
 
 			<div className="portfolio">
-<<<<<<< HEAD
 				<img
 					src="/consulting-company-project/Sources/main-image.png"
 					alt=""
 					className="portfolio-img"
 				/>
-=======
-				<img src="/consulting-company-project/Sources/main-image.png" alt="" className="portfolio-img" />
->>>>>>> 6099be6af9095c399c7226349191624b798e29fc
 				<div className="portfolio-head">
 					<h2 className="portfolio-title">Портфолио</h2>
 					<p className="portfolio-desc">Бетонный завод ООО «КСМ-1»</p>
@@ -215,33 +203,20 @@ const MainPage = () => {
 				<h2 className="generalTitle our-clients-title">Наши клиенты</h2>
 				<div className="our-clients-body">
 					<div className="our-clients-item">
-<<<<<<< HEAD
 						<img
 							src="/consulting-company-project/Sources/adidas.png"
-=======
-						<img src="/consulting-company-project/Sources/adidas.png" alt="" className="our-clients-img" />
-					</div>
-					<div className="our-clients-item">
-						<img
-							src="/consulting-company-project/Sources/ourClientsItem2.png"
->>>>>>> 6099be6af9095c399c7226349191624b798e29fc
 							alt=""
 							className="our-clients-img"
 						/>
 					</div>
 					<div className="our-clients-item">
 						<img
-<<<<<<< HEAD
 							src="/consulting-company-project/Sources/ourClientsItem2.png"
-=======
-							src="/consulting-company-project/Sources/ourClientsItem3.png"
->>>>>>> 6099be6af9095c399c7226349191624b798e29fc
 							alt=""
 							className="our-clients-img"
 						/>
 					</div>
 					<div className="our-clients-item">
-<<<<<<< HEAD
 						<img
 							src="/consulting-company-project/Sources/ourClientsItem3.png"
 							alt=""
@@ -254,9 +229,6 @@ const MainPage = () => {
 							alt=""
 							className="our-clients-img"
 						/>
-=======
-						<img src="/consulting-company-project/Sources/reebok.png" alt="" className="our-clients-img" />
->>>>>>> 6099be6af9095c399c7226349191624b798e29fc
 					</div>
 				</div>
 			</div>
