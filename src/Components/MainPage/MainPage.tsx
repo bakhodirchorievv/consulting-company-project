@@ -5,7 +5,7 @@ const MainPage = () => {
 	return (
 		<div className="mainPage-wrapper">
 			<div className="mainPage-face">
-				<img src="/Sources/main-image.png" alt="" className="main-image" />
+				<img src="/consulting-company-project/Sources/main-image.png" alt="" className="main-image" />
 
 				<div className="absoluteOnMainImage">
 					<h2 className="absolte-title">
@@ -22,7 +22,7 @@ const MainPage = () => {
 
 						<div className="red-arrow-wrapper">
 							<button className="absolute-btn">СМОТРЕТЬ КЕЙСЫ </button>
-							<img src="/Sources/red-arrow.png" alt="" className="red-arrow" />
+							<img src="/consulting-company-project/Sources/red-arrow.png" alt="" className="red-arrow" />
 						</div>
 					</div>
 				</div>
@@ -52,7 +52,7 @@ const MainPage = () => {
 			</div>
 
 			<div className="portfolio">
-				<img src="/Sources/main-image.png" alt="" className="portfolio-img" />
+				<img src="/consulting-company-project/Sources/main-image.png" alt="" className="portfolio-img" />
 				<div className="portfolio-head">
 					<h2 className="portfolio-title">Портфолио</h2>
 					<p className="portfolio-desc">Бетонный завод ООО «КСМ-1»</p>
@@ -97,7 +97,7 @@ const MainPage = () => {
 						<button className="seeCasesBtn">
 							СМОТРЕТЬ КЕЙСЫ{"    "}
 							<img
-								src="/Sources/red-arrow.png"
+								src="/consulting-company-project/Sources/red-arrow.png"
 								alt=""
 								className="red-arrow seeCaseArrow"
 							/>
@@ -111,7 +111,7 @@ const MainPage = () => {
 				<div className="services-body">
 					<div className="services-item withInfo">
 						<img
-							src="/Sources/services-img1.png"
+							src="/consulting-company-project/Sources/services-img1.png"
 							alt=""
 							className="services-item-img"
 						/>
@@ -130,14 +130,14 @@ const MainPage = () => {
 					</div>
 					<div className="services-item">
 						<img
-							src="/Sources/services-img2.png"
+							src="/consulting-company-project/Sources/services-img2.png"
 							alt=""
 							className="services-item-img"
 						/>
 					</div>
 					<div className="services-item">
 						<img
-							src="/Sources/services-img3.png"
+							src="/consulting-company-project/Sources/services-img3.png"
 							alt=""
 							className="services-item-img"
 						/>
@@ -180,7 +180,7 @@ const MainPage = () => {
 				</div>
 				<div className="howDoWeWork-right">
 					<img
-						src="/Sources/howDoWeWork-img.png"
+						src="/consulting-company-project/Sources/howDoWeWork-img.png"
 						alt=""
 						className="howDoWeWork-img"
 					/>
@@ -191,24 +191,24 @@ const MainPage = () => {
 				<h2 className="generalTitle our-clients-title">Наши клиенты</h2>
 				<div className="our-clients-body">
 					<div className="our-clients-item">
-						<img src="/Sources/adidas.png" alt="" className="our-clients-img" />
+						<img src="/consulting-company-project/Sources/adidas.png" alt="" className="our-clients-img" />
 					</div>
 					<div className="our-clients-item">
 						<img
-							src="/Sources/ourClientsItem2.png"
+							src="/consulting-company-project/Sources/ourClientsItem2.png"
 							alt=""
 							className="our-clients-img"
 						/>
 					</div>
 					<div className="our-clients-item">
 						<img
-							src="/Sources/ourClientsItem3.png"
+							src="/consulting-company-project/Sources/ourClientsItem3.png"
 							alt=""
 							className="our-clients-img"
 						/>
 					</div>
 					<div className="our-clients-item">
-						<img src="/Sources/reebok.png" alt="" className="our-clients-img" />
+						<img src="/consulting-company-project/Sources/reebok.png" alt="" className="our-clients-img" />
 					</div>
 				</div>
 			</div>
