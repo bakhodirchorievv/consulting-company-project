@@ -8,7 +8,7 @@ const Services = () => {
 				<div className="our-service">
 					<div className="our-service-left">
 						<img
-							src="/Sources/services-img1.png"
+							src="/consulting-company-project/Sources/services-img1.png"
 							alt=""
 							className="our-service-img"
 						/>
@@ -29,7 +29,11 @@ const Services = () => {
 						<div className="right-service-head">
 							<h3 className="right-service-title">Фото и видео съемка</h3>
 							<div className="head-right">
-								<img src="/Sources/stars.png" alt="" className="stars" />
+								<img
+									src="/consulting-company-project/Sources/stars.png"
+									alt=""
+									className="stars"
+								/>
 								<span className="enterToReview">перейти к отзывам </span>
 							</div>
 						</div>
@@ -55,7 +59,11 @@ const Services = () => {
 						<div className="service-right-foot">
 							<button className="service-right-button">ОБСУДИТЬ ПРОЕКТ</button>
 							<div className="watch-cases">
-								СМОТРЕТЬ КЕЙСЫ <img src="/Sources/red-arrow.png" alt="" />
+								СМОТРЕТЬ КЕЙСЫ{" "}
+								<img
+									src="/consulting-company-project/Sources/red-arrow.png"
+									alt=""
+								/>
 							</div>
 						</div>
 					</div>
@@ -63,7 +71,7 @@ const Services = () => {
 				<div className="our-service">
 					<div className="our-service-left">
 						<img
-							src="/Sources/services-img2.png"
+							src="/consulting-company-project/Sources/services-img2.png"
 							alt=""
 							className="our-service-img"
 						/>
@@ -85,7 +93,11 @@ const Services = () => {
 						<div className="right-service-head">
 							<h3 className="right-service-title">Съемка рекламных роликов</h3>
 							<div className="head-right">
-								<img src="/Sources/stars.png" alt="" className="stars" />
+								<img
+									src="/consulting-company-project/Sources/stars.png"
+									alt=""
+									className="stars"
+								/>
 								<span className="enterToReview">перейти к отзывам </span>
 							</div>
 						</div>
@@ -110,7 +122,11 @@ const Services = () => {
 						<div className="service-right-foot">
 							<button className="service-right-button">ОБСУДИТЬ ПРОЕКТ</button>
 							<div className="watch-cases">
-								СМОТРЕТЬ КЕЙСЫ <img src="/Sources/red-arrow.png" alt="" />
+								СМОТРЕТЬ КЕЙСЫ{" "}
+								<img
+									src="/consulting-company-project/Sources/red-arrow.png"
+									alt=""
+								/>
 							</div>
 						</div>
 					</div>
@@ -118,7 +134,7 @@ const Services = () => {
 				<div className="our-service">
 					<div className="our-service-left">
 						<img
-							src="/Sources/services-img3.png"
+							src="/consulting-company-project/Sources/services-img3.png"
 							alt=""
 							className="our-service-img"
 						/>
@@ -143,7 +159,11 @@ const Services = () => {
 								Съемка контента для социальных сетей
 							</h3>
 							<div className="head-right">
-								<img src="/Sources/stars.png" alt="" className="stars" />
+								<img
+									src="/consulting-company-project/Sources/stars.png"
+									alt=""
+									className="stars"
+								/>
 								<span className="enterToReview">перейти к отзывам </span>
 							</div>
 						</div>
@@ -171,7 +191,11 @@ const Services = () => {
 						<div className="service-right-foot">
 							<button className="service-right-button">ОБСУДИТЬ ПРОЕКТ</button>
 							<div className="watch-cases">
-								СМОТРЕТЬ КЕЙСЫ <img src="/Sources/red-arrow.png" alt="" />
+								СМОТРЕТЬ КЕЙСЫ{" "}
+								<img
+									src="/consulting-company-project/Sources/red-arrow.png"
+									alt=""
+								/>
 							</div>
 						</div>
 					</div>
@@ -181,7 +205,7 @@ const Services = () => {
 			<div className="case-submission">
 				<div className="case-submission-left">
 					<img
-						src="/Sources/main-image.png"
+						src="/consulting-company-project/Sources/main-image.png"
 						alt=""
 						className="caseSubmissionImg"
 					/>
@@ -220,24 +244,32 @@ const Services = () => {
 				</h2>
 				<div className="our-clients-body">
 					<div className="our-clients-item">
-						<img src="/Sources/adidas.png" alt="" className="our-clients-img" />
-					</div>
-					<div className="our-clients-item">
 						<img
-							src="/Sources/ourClientsItem2.png"
+							src="/consulting-company-project/Sources/adidas.png"
 							alt=""
 							className="our-clients-img"
 						/>
 					</div>
 					<div className="our-clients-item">
 						<img
-							src="/Sources/ourClientsItem3.png"
+							src="/consulting-company-project/Sources/ourClientsItem2.png"
 							alt=""
 							className="our-clients-img"
 						/>
 					</div>
 					<div className="our-clients-item">
-						<img src="/Sources/reebok.png" alt="" className="our-clients-img" />
+						<img
+							src="/consulting-company-project/Sources/ourClientsItem3.png"
+							alt=""
+							className="our-clients-img"
+						/>
+					</div>
+					<div className="our-clients-item">
+						<img
+							src="/consulting-company-project/Sources/reebok.png"
+							alt=""
+							className="our-clients-img"
+						/>
 					</div>
 				</div>
 			</div>

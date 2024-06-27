@@ -21,14 +21,18 @@ const Contacts = () => {
 							<h3 className="contact-type">Социальные сети</h3>
 							<div className="more-contacts">
 								<div className="contact-apps">
-									<img src="/Sources/wik.png" alt="" className="contactApp" />
 									<img
-										src="/Sources/youtube.png"
+										src="/consulting-company-project/Sources/wik.png"
 										alt=""
 										className="contactApp"
 									/>
 									<img
-										src="/Sources/telegram.png"
+										src="/consulting-company-project/Sources/youtube.png"
+										alt=""
+										className="contactApp"
+									/>
+									<img
+										src="/consulting-company-project/Sources/telegram.png"
 										alt=""
 										className="contactApp"
 									/>
@@ -68,7 +72,7 @@ const Contacts = () => {
 					</div>
 					<div className="our-contacts-right">
 						<img
-							src="/Sources/contacts-main-img.png"
+							src="/consulting-company-project/Sources/contacts-main-img.png"
 							alt=""
 							className="contact-main-img"
 						/>
@@ -79,7 +83,7 @@ const Contacts = () => {
 			<div className="case-submission">
 				<div className="case-submission-left">
 					<img
-						src="/Sources/main-image.png"
+						src="/consulting-company-project/Sources/main-image.png"
 						alt=""
 						className="caseSubmissionImg"
 					/>
@@ -118,24 +122,32 @@ const Contacts = () => {
 				</h2>
 				<div className="our-clients-body">
 					<div className="our-clients-item">
-						<img src="/Sources/adidas.png" alt="" className="our-clients-img" />
-					</div>
-					<div className="our-clients-item">
 						<img
-							src="/Sources/ourClientsItem2.png"
+							src="/consulting-company-project/Sources/adidas.png"
 							alt=""
 							className="our-clients-img"
 						/>
 					</div>
 					<div className="our-clients-item">
 						<img
-							src="/Sources/ourClientsItem3.png"
+							src="/consulting-company-project/Sources/ourClientsItem2.png"
 							alt=""
 							className="our-clients-img"
 						/>
 					</div>
 					<div className="our-clients-item">
-						<img src="/Sources/reebok.png" alt="" className="our-clients-img" />
+						<img
+							src="/consulting-company-project/Sources/ourClientsItem3.png"
+							alt=""
+							className="our-clients-img"
+						/>
+					</div>
+					<div className="our-clients-item">
+						<img
+							src="/consulting-company-project/Sources/reebok.png"
+							alt=""
+							className="our-clients-img"
+						/>
 					</div>
 				</div>
 			</div>

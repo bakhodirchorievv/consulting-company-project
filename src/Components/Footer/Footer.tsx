@@ -6,7 +6,11 @@ const Footer = () => {
 		<footer className="footer">
 			<div className="footer-head">
 				<div className="footer-header-left">
-					<img src="/Sources/red-circle.png" alt="" className="red-circle" />
+					<img
+						src="/consulting-company-project/Sources/red-circle.png"
+						alt=""
+						className="red-circle"
+					/>
 					<div className="nextToRedCircle">
 						<h2 className="footer-header-title">Neurocast</h2>
 						<p className="footer-header-desc">Production</p>
@@ -24,7 +28,7 @@ const Footer = () => {
 				</ul>
 				<div className="footer-header-right">
 					<img
-						src="/Sources/header-phone.png"
+						src="/consulting-company-project/Sources/header-phone.png"
 						alt=""
 						className="footer-header-phone"
 					/>
@@ -36,22 +40,22 @@ const Footer = () => {
 				<p className="footer-networks">Соц.сети</p>
 				<div className="footer-apps">
 					<img
-						src="/Sources/first-footer-app.png"
+						src="/consulting-company-project/Sources/first-footer-app.png"
 						alt=""
 						className="footer-app"
 					/>
 					<img
-						src="/Sources/second-footer-app.png"
+						src="/consulting-company-project/Sources/second-footer-app.png"
 						alt=""
 						className="footer-app"
 					/>
 					<img
-						src="/Sources/third-footer-app.png"
+						src="/consulting-company-project/Sources/third-footer-app.png"
 						alt=""
 						className="footer-app"
 					/>
 					<img
-						src="/Sources/fourth-footer-app.png"
+						src="/consulting-company-project/Sources/fourth-footer-app.png"
 						alt=""
 						className="footer-app"
 					/>

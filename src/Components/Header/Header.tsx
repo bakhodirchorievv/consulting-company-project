@@ -5,7 +5,11 @@ const Header = () => {
 	return (
 		<header className="header">
 			<div className="header-left">
-				<img src="/Sources/red-circle.png" alt="" className="red-circle" />
+				<img
+					src="/consulting-company-project/Sources/red-circle.png"
+					alt=""
+					className="red-circle"
+				/>
 				<div className="nextToRedCircle">
 					<h2 className="header-title">Neurocast</h2>
 					<p className="header-desc">Production</p>
@@ -24,7 +28,11 @@ const Header = () => {
 			</ul>
 
 			<div className="header-right">
-				<img src="/Sources/header-phone.png" alt="" className="header-phone" />
+				<img
+					src="/consulting-company-project/Sources/header-phone.png"
+					alt=""
+					className="header-phone"
+				/>
 				<p className="header-number">8 (903)403-26-02</p>
 			</div>
 		</header>
