@@ -18,7 +18,7 @@ const Footer = () => {
 				</div>
 				<ul className="footer-header-items">
 					<li className="footer-header-item">О нас</li>
-					<Link to={"/Cases"}>
+					<Link to={"/Services"}>
 						<li className="footer-header-item">Услуги</li>
 					</Link>
 					<li className="footer-header-item">Портфолио</li>

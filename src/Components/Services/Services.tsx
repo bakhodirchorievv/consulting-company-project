@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Services.css";
 
 const Services = () => {
@@ -58,13 +59,15 @@ const Services = () => {
 
 						<div className="service-right-foot">
 							<button className="service-right-button">ОБСУДИТЬ ПРОЕКТ</button>
-							<div className="watch-cases">
-								СМОТРЕТЬ КЕЙСЫ{" "}
-								<img
-									src="/consulting-company-project/Sources/red-arrow.png"
-									alt=""
-								/>
-							</div>
+							<Link to={"/Cases"}>
+								<div className="watch-cases">
+									СМОТРЕТЬ КЕЙСЫ{" "}
+									<img
+										src="/consulting-company-project/Sources/red-arrow.png"
+										alt=""
+									/>
+								</div>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -121,13 +124,15 @@ const Services = () => {
 
 						<div className="service-right-foot">
 							<button className="service-right-button">ОБСУДИТЬ ПРОЕКТ</button>
-							<div className="watch-cases">
-								СМОТРЕТЬ КЕЙСЫ{" "}
-								<img
-									src="/consulting-company-project/Sources/red-arrow.png"
-									alt=""
-								/>
-							</div>
+							<Link to={"/Cases"}>
+								<div className="watch-cases">
+									СМОТРЕТЬ КЕЙСЫ{" "}
+									<img
+										src="/consulting-company-project/Sources/red-arrow.png"
+										alt=""
+									/>
+								</div>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -190,13 +195,15 @@ const Services = () => {
 
 						<div className="service-right-foot">
 							<button className="service-right-button">ОБСУДИТЬ ПРОЕКТ</button>
-							<div className="watch-cases">
-								СМОТРЕТЬ КЕЙСЫ{" "}
-								<img
-									src="/consulting-company-project/Sources/red-arrow.png"
-									alt=""
-								/>
-							</div>
+							<Link to={"/Cases"}>
+								<div className="watch-cases">
+									СМОТРЕТЬ КЕЙСЫ{" "}
+									<img
+										src="/consulting-company-project/Sources/red-arrow.png"
+										alt=""
+									/>
+								</div>
+							</Link>
 						</div>
 					</div>
 				</div>
