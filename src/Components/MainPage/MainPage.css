@@ -240,12 +240,22 @@
 .withInfo {
 	position: relative;
 }
+
 .info-wrapper {
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0.6);
 	bottom: 0;
 	padding: 34px 24px 24px 30px;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s;
 }
+
+.withInfo:hover .info-wrapper {
+	opacity: 1;
+	visibility: visible;
+}
+
 .info-title {
 	font-size: 28px;
 	line-height: 33.41px;

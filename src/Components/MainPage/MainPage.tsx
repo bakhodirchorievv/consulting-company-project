@@ -140,19 +140,43 @@ const MainPage = () => {
 							</div>
 						</div>
 					</div>
-					<div className="services-item">
+					<div className="services-item withInfo">
 						<img
 							src="/consulting-company-project/Sources/services-img2.png"
 							alt=""
 							className="services-item-img"
 						/>
+
+						<div className="info-wrapper">
+							<h3 className="info-title">Фото и видео съемка</h3>
+							<p className="info-desc">
+								Профессиональная фото- и видеосъемка любой направленности, будь
+								то музыкальный клип, репортаж или иное видео
+							</p>
+							<div className="info-foot">
+								<p className="info-price">От 5.000р</p>
+								<button className="info-btn">Обсудить</button>
+							</div>
+						</div>
 					</div>
-					<div className="services-item">
+					<div className="services-item withInfo">
 						<img
 							src="/consulting-company-project/Sources/services-img3.png"
 							alt=""
 							className="services-item-img"
 						/>
+
+						<div className="info-wrapper">
+							<h3 className="info-title">Фото и видео съемка</h3>
+							<p className="info-desc">
+								Профессиональная фото- и видеосъемка любой направленности, будь
+								то музыкальный клип, репортаж или иное видео
+							</p>
+							<div className="info-foot">
+								<p className="info-price">От 5.000р</p>
+								<button className="info-btn">Обсудить</button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
