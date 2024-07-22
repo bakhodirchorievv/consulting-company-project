@@ -23,6 +23,9 @@ const Header = () => {
 				<Link to={"/Services"}>
 					<li className="header-item">Услуги</li>
 				</Link>
+				<Link to={"/Cases"}>
+					<li className="header-item">Кейсы</li>
+				</Link>
 				<li className="header-item">Портфолио</li>
 				<Link to={"/Contacts"}>
 					<li className="header-item">Контакты</li>
