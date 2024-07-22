@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {
+	.footer {
+		padding: 33px 20px 43px;
+	}
+
+	.footer-header-items,
+	.footer-header-right {
+		display: none;
+	}
+
+	.footer-foot {
+		flex-wrap: wrap;
+	}
+	.footer-foot-desc {
+		margin-top: 10px;
+	}
+}

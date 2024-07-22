@@ -59,6 +59,10 @@
 	gap: 39px;
 	margin-top: 56px;
 }
+
+.red-arrow-wrapper {
+	z-index: 19;
+}
 .absolute-btn {
 	font-family: inherit;
 	font-weight: 300;

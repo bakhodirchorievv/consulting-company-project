@@ -24,14 +24,16 @@ const MainPage = () => {
 							ОБСУДИТЬ ПРОЕКТ
 						</button>
 
-						<div className="red-arrow-wrapper">
-							<button className="absolute-btn">СМОТРЕТЬ КЕЙСЫ </button>
-							<img
-								src="/consulting-company-project/Sources/red-arrow.png"
-								alt=""
-								className="red-arrow"
-							/>
-						</div>
+						<Link to={"/Cases"}>
+							<div className="red-arrow-wrapper">
+								<button className="absolute-btn">СМОТРЕТЬ КЕЙСЫ </button>
+								<img
+									src="/consulting-company-project/Sources/red-arrow.png"
+									alt=""
+									className="red-arrow"
+								/>
+							</div>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -148,10 +150,11 @@ const MainPage = () => {
 						/>
 
 						<div className="info-wrapper">
-							<h3 className="info-title">Фото и видео съемка</h3>
+							<h3 className="info-title">Реклама</h3>
 							<p className="info-desc">
-								Профессиональная фото- и видеосъемка любой направленности, будь
-								то музыкальный клип, репортаж или иное видео
+								Дает мощный импульс вашему бизнесу. Наши специалисты
+								проанализирут ваш бизнес, найдут конкурентов и на основе этого
+								подберут концепцию рекламного ролика
 							</p>
 							<div className="info-foot">
 								<p className="info-price">От 5.000р</p>
@@ -167,10 +170,12 @@ const MainPage = () => {
 						/>
 
 						<div className="info-wrapper">
-							<h3 className="info-title">Фото и видео съемка</h3>
+							<h3 className="info-title">Контент для соц.сетей</h3>
 							<p className="info-desc">
-								Профессиональная фото- и видеосъемка любой направленности, будь
-								то музыкальный клип, репортаж или иное видео
+								Специалисты из отдела Neurocast Media возьмут всю ответсвенность
+								за наполнение ваших социальных сетей reels, фото и видео. А
+								также наши smm специалисты помогут с написанием постов и их
+								публикацией
 							</p>
 							<div className="info-foot">
 								<p className="info-price">От 5.000р</p>

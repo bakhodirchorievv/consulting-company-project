@@ -1,4 +1,5 @@
 import "./Cases.css";
+import "./CasesResponsive.css";
 
 const Cases = () => {
 	return (

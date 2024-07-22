@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import "./FooterResponsive.css";
 
 const Footer = () => {
 	return (
@@ -17,7 +18,6 @@ const Footer = () => {
 					</div>
 				</div>
 				<ul className="footer-header-items">
-					<li className="footer-header-item">О нас</li>
 					<Link to={"/Services"}>
 						<li className="footer-header-item">Услуги</li>
 					</Link>

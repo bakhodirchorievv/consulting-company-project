@@ -1,23 +1,25 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
+import "./HeaderResponsive.css";
 
 const Header = () => {
 	return (
 		<header className="header">
-			<div className="header-left">
-				<img
-					src="/consulting-company-project/Sources/red-circle.png"
-					alt=""
-					className="red-circle"
-				/>
-				<div className="nextToRedCircle">
-					<h2 className="header-title">Neurocast</h2>
-					<p className="header-desc">Production</p>
+			<Link to={"/"}>
+				<div className="header-left">
+					<img
+						src="/consulting-company-project/Sources/red-circle.png"
+						alt=""
+						className="red-circle"
+					/>
+					<div className="nextToRedCircle">
+						<h2 className="header-title">Neurocast</h2>
+						<p className="header-desc">Production</p>
+					</div>
 				</div>
-			</div>
+			</Link>
 
 			<ul className="header-items">
-				<li className="header-item">О нас</li>
 				<Link to={"/Services"}>
 					<li className="header-item">Услуги</li>
 				</Link>
